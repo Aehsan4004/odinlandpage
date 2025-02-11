@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1 1 100%; */
+    /* min-height: 100%; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 5%;
+}
+
+.head-links {
+    color: #e5e7eb;
+    font-size: 18px;
+    /* margin: 15px; */
+    margin-right: 15px;
+}
+
+ul {
+    list-style: none;  /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;  /* Makes list items appear in a row */
+    gap: 15px;  /* Adds spacing between items */
+}
+
+.two {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    margin: auto;
+}
+.left-box {
+    display: flex;
+    flex: 1 1 40%;
+    max-width: 40%;
+}
+.right-box {
+    display: flex;
+    flex: 1 1 40%;
+    max-width: 40%;
+    background-color: #e5e7eb;
+}

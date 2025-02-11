@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.useInlineCompletions": true,
+    "emmet.includeLanguages": {
+        "\"html\"": "\"html\""
+    },
+    "emmet.showSuggestionsAsSnippets": true
+}

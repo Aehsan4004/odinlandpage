@@ -1,0 +1,137 @@
+2025-02-09 16:45:29.285 [info] [main] Log level: Info
+2025-02-09 16:45:29.287 [info] [main] Validating found git in: "git"
+2025-02-09 16:45:29.829 [info] [main] Using git "2.34.1" from "git"
+2025-02-09 16:45:29.829 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-09 16:45:41.503 [info] > git rev-parse --show-toplevel [3160ms]
+2025-02-09 16:45:41.504 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-09 16:45:41.702 [info] > git rev-parse --show-toplevel [34ms]
+2025-02-09 16:45:41.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-09 16:45:41.782 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-09 16:45:41.783 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-09 16:45:41.843 [info] > git rev-parse --show-toplevel [18ms]
+2025-02-09 16:45:41.844 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-09 16:45:41.897 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-09 16:45:41.898 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-09 16:45:41.954 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-09 16:45:41.955 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-09 16:45:42.779 [info] > git rev-parse --show-toplevel [776ms]
+2025-02-09 16:45:42.940 [info] > git rev-parse --git-dir --git-common-dir [23ms]
+2025-02-09 16:45:42.999 [info] [Model][openRepository] Opened repository: /home/aehsan4004/git_test
+2025-02-09 16:45:43.127 [info] > git config --get commit.template [77ms]
+2025-02-09 16:45:45.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2443ms]
+2025-02-09 16:45:45.609 [info] > git rev-parse --show-toplevel [2487ms]
+2025-02-09 16:45:45.891 [info] > git rev-parse --git-dir --git-common-dir [244ms]
+2025-02-09 16:45:45.913 [info] [Model][openRepository] Opened repository: /home/aehsan4004/odin-css-exercises
+2025-02-09 16:45:46.258 [info] > git config --get commit.template [295ms]
+2025-02-09 16:45:46.259 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [433ms]
+2025-02-09 16:45:46.272 [info] > git rev-parse --show-toplevel [127ms]
+2025-02-09 16:45:46.385 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2025-02-09 16:45:46.404 [info] [Model][openRepository] Opened repository: /home/aehsan4004/odin-recipes
+2025-02-09 16:45:46.549 [info] > git status -z -uall [857ms]
+2025-02-09 16:45:46.551 [info] > git config --get commit.template [88ms]
+2025-02-09 16:45:49.271 [info] > git check-ignore -v -z --stdin [179ms]
+2025-02-09 16:45:49.273 [info] > git check-ignore -v -z --stdin [85ms]
+2025-02-09 16:45:49.274 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [248ms]
+2025-02-09 16:45:49.328 [info] > git rev-parse --show-toplevel [2796ms]
+2025-02-09 16:45:49.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2991ms]
+2025-02-09 16:45:49.517 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odin-css-exercises/.git/refs/remotes/origin/main'
+2025-02-09 16:45:49.522 [info] > git config --get commit.template [290ms]
+2025-02-09 16:45:49.528 [info] > git rev-parse --git-dir --git-common-dir [52ms]
+2025-02-09 16:45:49.541 [info] [Model][openRepository] Opened repository: /home/aehsan4004/odinlandpage
+2025-02-09 16:45:49.543 [info] > git config --get --local branch.main.vscode-merge-base [219ms]
+2025-02-09 16:45:49.713 [info] > git rev-parse refs/remotes/origin/main [197ms]
+2025-02-09 16:45:49.812 [info] > git check-ignore -v -z --stdin [681ms]
+2025-02-09 16:45:49.815 [info] > git rev-parse --show-toplevel [104ms]
+2025-02-09 16:45:49.815 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-09 16:45:49.826 [info] [Model][doInitialScan] Initial repository scan completed - repositories (4), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-09 16:45:49.827 [info] > git config --get commit.template [154ms]
+2025-02-09 16:45:49.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [190ms]
+2025-02-09 16:45:49.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [245ms]
+2025-02-09 16:45:49.915 [info] > git merge-base refs/heads/main refs/remotes/origin/main [50ms]
+2025-02-09 16:45:50.050 [info] > git status -z -uall [40ms]
+2025-02-09 16:45:50.051 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [261ms]
+2025-02-09 16:45:50.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [640ms]
+2025-02-09 16:45:50.088 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odin-recipes/.git/refs/remotes/origin/main'
+2025-02-09 16:45:50.094 [info] > git diff --name-status -z --diff-filter=ADMR 58c9de176d840f196e1ac985610f970ffb238b60...refs/remotes/origin/main [136ms]
+2025-02-09 16:45:50.101 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [55ms]
+2025-02-09 16:45:50.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [200ms]
+2025-02-09 16:45:50.144 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odinlandpage/.git/refs/remotes/origin/main'
+2025-02-09 16:45:50.159 [info] > git rev-parse refs/remotes/origin/main [71ms]
+2025-02-09 16:45:50.258 [info] > git status -z -uall [60ms]
+2025-02-09 16:45:50.260 [info] > git rev-parse refs/remotes/origin/main [116ms]
+2025-02-09 16:45:50.563 [info] > git status -z -uall [268ms]
+2025-02-09 16:45:50.563 [info] > git check-ignore -v -z --stdin [176ms]
+2025-02-09 16:45:50.565 [info] > git check-ignore -v -z --stdin [138ms]
+2025-02-09 16:45:50.566 [info] > git check-ignore -v -z --stdin [78ms]
+2025-02-09 16:45:50.567 [info] > git check-ignore -v -z --stdin [15ms]
+2025-02-09 16:45:50.568 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [231ms]
+2025-02-09 16:45:50.620 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [369ms]
+2025-02-09 16:45:51.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [366ms]
+2025-02-09 16:45:51.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [462ms]
+2025-02-09 16:45:51.137 [info] > git config --get --local branch.main.vscode-merge-base [62ms]
+2025-02-09 16:45:51.189 [info] > git config --get commit.template [163ms]
+2025-02-09 16:45:51.189 [info] > git config --get commit.template [204ms]
+2025-02-09 16:45:51.196 [info] > git config --get --local branch.main.vscode-merge-base [81ms]
+2025-02-09 16:45:51.196 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-09 16:45:51.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [330ms]
+2025-02-09 16:45:51.655 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [153ms]
+2025-02-09 16:45:51.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [243ms]
+2025-02-09 16:45:51.656 [info] > git reflog main --grep-reflog=branch: Created from *. [418ms]
+2025-02-09 16:45:51.731 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odin-recipes/.git/refs/remotes/origin/main'
+2025-02-09 16:45:51.770 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odinlandpage/.git/refs/remotes/origin/main'
+2025-02-09 16:45:51.775 [info] > git merge-base refs/heads/main refs/remotes/origin/main [134ms]
+2025-02-09 16:45:51.819 [info] > git rev-parse refs/remotes/origin/main [50ms]
+2025-02-09 16:45:51.891 [info] > git rev-parse refs/remotes/origin/main [160ms]
+2025-02-09 16:45:51.970 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [280ms]
+2025-02-09 16:45:52.012 [info] > git status -z -uall [156ms]
+2025-02-09 16:45:52.012 [info] > git status -z -uall [86ms]
+2025-02-09 16:45:52.013 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [45ms]
+2025-02-09 16:45:52.062 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [172ms]
+2025-02-09 16:45:52.113 [info] > git diff --name-status -z --diff-filter=ADMR 7e69e1b5789c64ce45bb39c07d6f81af4d5cc28e...refs/remotes/origin/main [300ms]
+2025-02-09 16:45:52.118 [info] > git merge-base refs/heads/main refs/remotes/origin/main [61ms]
+2025-02-09 16:45:52.163 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [160ms]
+2025-02-09 16:45:52.262 [info] > git config --add --local branch.main.vscode-merge-base origin/main [60ms]
+2025-02-09 16:45:52.264 [info] > git diff --name-status -z --diff-filter=ADMR 7e69e1b5789c64ce45bb39c07d6f81af4d5cc28e...refs/remotes/origin/main [101ms]
+2025-02-09 16:45:52.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [163ms]
+2025-02-09 16:45:52.355 [info] > git config --get commit.template [13ms]
+2025-02-09 16:45:52.355 [info] > git config --get --local branch.main.vscode-merge-base [48ms]
+2025-02-09 16:45:52.442 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [45ms]
+2025-02-09 16:45:52.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2025-02-09 16:45:52.521 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odinlandpage/.git/refs/remotes/origin/main'
+2025-02-09 16:45:52.525 [info] > git merge-base refs/heads/main refs/remotes/origin/main [45ms]
+2025-02-09 16:45:52.563 [info] > git rev-parse refs/remotes/origin/main [43ms]
+2025-02-09 16:45:52.656 [info] > git status -z -uall [53ms]
+2025-02-09 16:45:52.657 [info] > git diff --name-status -z --diff-filter=ADMR 24a2521b1efe9745ebceb5fdf9988caf09eaca52...refs/remotes/origin/main [99ms]
+2025-02-09 16:45:52.664 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-02-09 16:45:56.767 [info] > git status -z -uall [7018ms]
+2025-02-09 16:45:56.922 [info] > git config --get commit.template [18ms]
+2025-02-09 16:45:56.923 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [80ms]
+2025-02-09 16:45:57.013 [info] > git config --get --local branch.main.vscode-merge-base [50ms]
+2025-02-09 16:45:57.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2025-02-09 16:45:57.098 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odin-css-exercises/.git/refs/remotes/origin/main'
+2025-02-09 16:45:57.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [102ms]
+2025-02-09 16:45:57.322 [info] > git rev-parse refs/remotes/origin/main [201ms]
+2025-02-09 16:45:57.441 [info] > git status -z -uall [55ms]
+2025-02-09 16:45:57.443 [info] > git merge-base refs/heads/main refs/remotes/origin/main [199ms]
+2025-02-09 16:45:57.487 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [52ms]
+2025-02-09 16:45:57.534 [info] > git diff --name-status -z --diff-filter=ADMR fe95b463284982516875bda0dc888fd869a69c94...refs/remotes/origin/main [54ms]
+2025-02-09 16:45:57.546 [info] > git merge-base refs/heads/main refs/remotes/origin/main [22ms]
+2025-02-09 16:45:57.602 [info] > git diff --name-status -z --diff-filter=ADMR fe95b463284982516875bda0dc888fd869a69c94...refs/remotes/origin/main [19ms]
+2025-02-09 16:56:42.449 [info] > git config --get commit.template [58ms]
+2025-02-09 16:56:42.460 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-02-09 16:56:42.511 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odinlandpage/.git/refs/remotes/origin/main'
+2025-02-09 16:56:42.527 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-02-09 16:56:42.636 [info] > git status -z -uall [59ms]
+2025-02-09 16:56:42.650 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2025-02-09 18:20:48.281 [info] > git config --get commit.template [1197ms]
+2025-02-09 18:20:48.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1658ms]
+2025-02-09 18:20:48.922 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odinlandpage/.git/refs/remotes/origin/main'
+2025-02-09 18:20:49.006 [info] > git rev-parse refs/remotes/origin/main [86ms]
+2025-02-09 18:20:49.358 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [57ms]
+2025-02-09 18:20:49.389 [info] > git status -z -uall [274ms]
+2025-02-09 18:33:14.675 [info] > git config --get commit.template [1350ms]
+2025-02-09 18:33:15.555 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2152ms]
+2025-02-09 18:33:15.596 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odinlandpage/.git/refs/remotes/origin/main'
+2025-02-09 18:33:15.620 [info] > git rev-parse refs/remotes/origin/main [24ms]
+2025-02-09 18:33:15.906 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [75ms]
+2025-02-09 18:33:15.945 [info] > git status -z -uall [277ms]
