@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1 1 100%; */
+    /* min-height: 100%; */
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 15px;
+    height: 4vh;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 5%;
+}
+
+.head-links {
+    color: #e5e7eb;
+    font-size: 18px;
+    /* margin: 15px; */
+    margin-right: 15px;
+}
+
+ul {
+    list-style: none;  /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;  /* Makes list items appear in a row */
+    gap: 15px;  /* Adds spacing between items */
+}
+
+.two {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    /* margin-top: 20px; */
+    height: 24vh;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* flex: 1 1 40%; */
+    width: 35%;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-weight: 900;
+    color: #f9faf8;
+    font-size: 48px;
+    width: 80%;
+}
+
+.content {
+    font-size: 18px;
+    color: #e5e7eb;
+    /* width: 80%; */
+}
+
+.right-box {
+    display: flex;
+    /* flex: 1 1 40%; */
+    width: 35%;
+    background-color: #e5e7eb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    border: 2px solid #3882f6; 
+    height: 18vh;
+    width: 18vh;
+    border-radius: 5px;
+    /* border-color: #3882f6; */
+    margin: 5px;
+}
+
+.four {
+    height: 24vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-family: 'roboto', sans-serif;
+    font-style: 'light-italic';
+}
+
+.quote {
+    width: 60%;
+}
+
+.quoter, .requoter {
+    align-self: flex-end;
+}
+
+.five {
+    height: 24vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-box {
+    background-color: #3882f6;
+    color: white;
+    height: 12vh;
+    width: 65vw;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    flex-flow: column-wrap;
+}

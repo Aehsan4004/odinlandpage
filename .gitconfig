@@ -1,0 +1,9 @@
+[user]
+	name = Aehsan4004
+	email = 112286900+Aehsan4004@users.noreply.github.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	editor = code --wait

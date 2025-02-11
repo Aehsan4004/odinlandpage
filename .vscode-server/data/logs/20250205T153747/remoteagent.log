@@ -1,0 +1,12 @@
+2025-02-05 15:37:57.019 [info] 
+
+
+
+
+2025-02-05 15:37:57.226 [info] Extension host agent started.
+2025-02-05 15:38:02.309 [info] [127.0.0.1][6a191b42][ManagementConnection] New connection established.
+2025-02-05 15:38:02.322 [info] [127.0.0.1][8c15096f][ExtensionHostConnection] New connection established.
+2025-02-05 15:38:03.228 [info] [127.0.0.1][8c15096f][ExtensionHostConnection] <151> Launched Extension Host Process.
+2025-02-05 15:38:28.930 [error] [network] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-02-05 17:08:12.019 [info] [127.0.0.1][6a191b42][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-05 17:08:22.417 [info] [127.0.0.1][8c15096f][ExtensionHostConnection] <151> Extension Host Process exited with code: 0, signal: null.

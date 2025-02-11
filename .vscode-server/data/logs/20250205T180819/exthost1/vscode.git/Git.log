@@ -1,0 +1,91 @@
+2025-02-05 18:09:03.805 [info] [main] Log level: Info
+2025-02-05 18:09:03.805 [info] [main] Validating found git in: "git"
+2025-02-05 18:09:04.815 [info] [main] Using git "2.34.1" from "git"
+2025-02-05 18:09:04.815 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-05 18:09:05.497 [info] > git rev-parse --show-toplevel [204ms]
+2025-02-05 18:09:05.498 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-05 18:09:05.750 [info] > git rev-parse --show-toplevel [197ms]
+2025-02-05 18:09:05.925 [info] > git rev-parse --git-dir --git-common-dir [27ms]
+2025-02-05 18:09:05.962 [info] [Model][openRepository] Opened repository: /home/aehsan4004/odin-css-exercises
+2025-02-05 18:09:06.139 [info] > git config --get commit.template [88ms]
+2025-02-05 18:09:06.142 [info] > git rev-parse --show-toplevel [28ms]
+2025-02-05 18:09:06.344 [info] > git rev-parse --show-toplevel [77ms]
+2025-02-05 18:09:06.344 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-05 18:09:06.585 [info] > git rev-parse --show-toplevel [123ms]
+2025-02-05 18:09:06.586 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-05 18:09:06.732 [info] > git rev-parse --show-toplevel [60ms]
+2025-02-05 18:09:06.732 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-05 18:09:06.787 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-05 18:09:06.787 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-05 18:09:06.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [814ms]
+2025-02-05 18:09:07.009 [info] > git check-ignore -v -z --stdin [279ms]
+2025-02-05 18:09:07.084 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odin-css-exercises/.git/refs/remotes/origin/main'
+2025-02-05 18:09:07.088 [info] > git rev-parse --show-toplevel [100ms]
+2025-02-05 18:09:07.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-05 18:09:07.198 [info] > git rev-parse refs/remotes/origin/main [114ms]
+2025-02-05 18:09:07.348 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+2025-02-05 18:09:07.428 [info] > git rev-parse --show-toplevel [235ms]
+2025-02-05 18:09:07.483 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2025-02-05 18:09:07.493 [info] [Model][openRepository] Opened repository: /home/aehsan4004/git_test
+2025-02-05 18:09:07.813 [info] > git config --get commit.template [53ms]
+2025-02-05 18:09:07.835 [info] > git rev-parse --show-toplevel [233ms]
+2025-02-05 18:09:07.908 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-02-05 18:09:07.920 [info] [Model][openRepository] Opened repository: /home/aehsan4004/odin-recipes
+2025-02-05 18:09:08.148 [info] > git rev-parse --show-toplevel [72ms]
+2025-02-05 18:09:08.148 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-05 18:09:08.159 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-05 18:09:08.521 [info] > git config --get commit.template [496ms]
+2025-02-05 18:09:08.578 [info] > git check-ignore -v -z --stdin [435ms]
+2025-02-05 18:09:08.582 [info] > git show --textconv :foundations/flex/07-flex-layout-2/style.css [373ms]
+2025-02-05 18:09:08.582 [info] > git show --textconv :foundations/flex/07-flex-layout-2/README.md [204ms]
+2025-02-05 18:09:08.584 [info] > git ls-files --stage -- /home/aehsan4004/odin-css-exercises/foundations/flex/07-flex-layout-2/style.css [120ms]
+2025-02-05 18:09:08.684 [info] > git ls-files --stage -- /home/aehsan4004/odin-css-exercises/foundations/flex/07-flex-layout-2/README.md [164ms]
+2025-02-05 18:09:08.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [957ms]
+2025-02-05 18:09:08.775 [info] > git cat-file -s 6caf04c79451489cc708102360331bdf31d6da98 [106ms]
+2025-02-05 18:09:09.081 [info] > git status -z -uall [1817ms]
+2025-02-05 18:09:09.082 [info] > git status -z -uall [209ms]
+2025-02-05 18:09:09.084 [info] > git cat-file -s bde265c234c688d888d75b10303940589b88ba04 [319ms]
+2025-02-05 18:09:09.089 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [515ms]
+2025-02-05 18:09:09.250 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odin-recipes/.git/refs/remotes/origin/main'
+2025-02-05 18:09:09.266 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [343ms]
+2025-02-05 18:09:09.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [205ms]
+2025-02-05 18:09:09.622 [info] > git rev-parse refs/remotes/origin/main [372ms]
+2025-02-05 18:09:11.339 [info] > git status -z -uall [1672ms]
+2025-02-05 18:09:11.341 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1564ms]
+2025-02-05 18:09:11.413 [info] > git config --local branch.main.vscode-merge-base [1792ms]
+2025-02-05 18:09:11.464 [info] > git config --get commit.template [1896ms]
+2025-02-05 18:09:11.465 [info] > git config --get commit.template [1945ms]
+2025-02-05 18:09:11.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2012ms]
+2025-02-05 18:09:11.512 [info] > git blame --root --incremental fe95b463284982516875bda0dc888fd869a69c94 -- /home/aehsan4004/odin-css-exercises/foundations/flex/07-flex-layout-2/style.css [2444ms]
+2025-02-05 18:09:11.617 [info] > git config --local branch.main.vscode-merge-base [106ms]
+2025-02-05 18:09:11.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [260ms]
+2025-02-05 18:09:11.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [515ms]
+2025-02-05 18:09:12.128 [info] > git merge-base refs/heads/main refs/remotes/origin/main [222ms]
+2025-02-05 18:09:12.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [469ms]
+2025-02-05 18:09:12.247 [info] > git config --get commit.template [640ms]
+2025-02-05 18:09:12.289 [info] > git diff --name-status -z --diff-filter=ADMR 58c9de176d840f196e1ac985610f970ffb238b60...refs/remotes/origin/main [101ms]
+2025-02-05 18:09:12.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [173ms]
+2025-02-05 18:09:12.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [223ms]
+2025-02-05 18:09:12.294 [info] > git config --local branch.main.vscode-merge-base [291ms]
+2025-02-05 18:09:12.651 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odin-css-exercises/.git/refs/remotes/origin/main'
+2025-02-05 18:09:12.656 [info] > git merge-base refs/heads/main refs/remotes/origin/main [411ms]
+2025-02-05 18:09:12.713 [info] > git rev-parse refs/remotes/origin/main [61ms]
+2025-02-05 18:09:12.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [386ms]
+2025-02-05 18:09:12.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [431ms]
+2025-02-05 18:09:12.975 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aehsan4004/odin-recipes/.git/refs/remotes/origin/main'
+2025-02-05 18:09:13.196 [info] > git status -z -uall [438ms]
+2025-02-05 18:09:13.196 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [395ms]
+2025-02-05 18:09:13.256 [info] > git diff --name-status -z --diff-filter=ADMR fe95b463284982516875bda0dc888fd869a69c94...refs/remotes/origin/main [551ms]
+2025-02-05 18:09:13.366 [info] > git rev-parse refs/remotes/origin/main [392ms]
+2025-02-05 18:09:13.464 [info] > git merge-base refs/heads/main refs/remotes/origin/main [614ms]
+2025-02-05 18:09:13.536 [info] > git status -z -uall [227ms]
+2025-02-05 18:09:13.537 [info] > git status -z -uall [118ms]
+2025-02-05 18:09:13.537 [info] > git diff --name-status -z --diff-filter=ADMR 7e69e1b5789c64ce45bb39c07d6f81af4d5cc28e...refs/remotes/origin/main [24ms]
+2025-02-05 18:09:13.539 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [77ms]
+2025-02-05 18:09:13.544 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [190ms]
+2025-02-05 18:09:13.550 [info] > git merge-base refs/heads/main refs/remotes/origin/main [298ms]
+2025-02-05 18:09:13.626 [info] > git diff --name-status -z --diff-filter=ADMR fe95b463284982516875bda0dc888fd869a69c94...refs/remotes/origin/main [19ms]
+2025-02-05 18:13:24.026 [info] > git show --textconv :foundations/flex/07-flex-layout-2/index.html [107ms]
+2025-02-05 18:13:24.034 [info] > git ls-files --stage -- /home/aehsan4004/odin-css-exercises/foundations/flex/07-flex-layout-2/index.html [53ms]
+2025-02-05 18:13:24.112 [info] > git cat-file -s 85c1d0b75caed03383c60b7282620b592a3d5127 [16ms]
+2025-02-05 18:13:30.252 [info] > git blame --root --incremental fe95b463284982516875bda0dc888fd869a69c94 -- /home/aehsan4004/odin-css-exercises/foundations/flex/07-flex-layout-2/index.html [22ms]

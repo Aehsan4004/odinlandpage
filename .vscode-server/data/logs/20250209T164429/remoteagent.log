@@ -1,0 +1,12 @@
+2025-02-09 16:44:43.858 [info] 
+
+
+
+
+2025-02-09 16:44:44.049 [info] Extension host agent started.
+2025-02-09 16:44:57.462 [info] [127.0.0.1][a3f46293][ManagementConnection] New connection established.
+2025-02-09 16:44:57.506 [info] [127.0.0.1][70267832][ExtensionHostConnection] New connection established.
+2025-02-09 16:45:02.689 [info] [127.0.0.1][70267832][ExtensionHostConnection] <345> Launched Extension Host Process.
+2025-02-09 18:41:18.077 [info] [127.0.0.1][a3f46293][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-09 18:41:37.092 [warning] No ptyHost heartbeat after 6 seconds
+2025-02-09 18:41:42.222 [error] No ptyHost heartbeat after 12 seconds
